@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(34, 34, 34);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 20em;
+  background-color: rgb(255, 255, 255);
+  padding-top: 1.5em;
+  position: relative;
+}
+
+.img-container {
+  width: 12.5em;
+  height: 15.5em;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 2px 5px 16px 2px rgba(0, 0, 0, 0.7411764706);
+}
+
+.container .text-container {
+  margin: 2em;
+  width: 30em;
+  height: 10em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: large;
+}
+
+.container .text-container .movie-title {
+  margin-top: 0.1em;
+}
+
+.container .text-container .movie-description {
+  margin-top: 1em;
+  font-size: large;
+}
+
+.arrows {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+  width: 100%;
+  height: 20em;
+  position: absolute;
+  top: 0;
+}
+
+.arrows .left-arrow,
+.right-arrow {
+  background: none;
+  border: none;
+}
+
+.arrows button:hover {
+  cursor: pointer;
+  transition: 0.25s all ease;
+  transform: scale(1.5);
+}
+
+.arrows button img {
+  width: 2.5em;
+  height: 2.5em;
+}
+
+/*# sourceMappingURL=style.css.map */

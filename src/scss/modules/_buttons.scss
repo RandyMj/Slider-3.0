@@ -1,0 +1,25 @@
+.arrows {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+  width: 100%;
+  height: 20em;
+  position: absolute;
+  top: 0;
+}
+.arrows .left-arrow,
+.right-arrow {
+  background: none;
+  border: none;
+}
+
+.arrows button:hover {
+  cursor: pointer;
+  transition: 0.25s all ease;
+  transform: scale(1.5);
+}
+
+.arrows button img {
+  width: 2.5em;
+  height: 2.5em;
+}

@@ -1,0 +1,16 @@
+.container .text-container {
+  margin: 2em;
+  width: 30em;
+  height: 10em;
+  font-family: $text-font;
+  font-size: large;
+}
+
+.container .text-container .movie-title {
+  margin-top: 0.1em;
+}
+
+.container .text-container .movie-description {
+  margin-top: 1em;
+  font-size: large;
+}

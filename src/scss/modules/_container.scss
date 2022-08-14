@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 20em;
+  background-color: $container-bkg;
+  padding-top: 1.5em;
+  position: relative;
+}

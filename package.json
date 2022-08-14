@@ -1,0 +1,19 @@
+{
+  "name": "slider-3.0",
+  "version": "1.0.0",
+  "description": "- Slider 3.0 is the third version of a simple image slider using Html, Css and JavaScript. - Simple using vanilla JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./src/scss/style.scss ./src/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RandyMj/Slider-3.0.git"
+  },
+  "author": "RandyMj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RandyMj/Slider-3.0/issues"
+  },
+  "homepage": "https://github.com/RandyMj/Slider-3.0#readme"
+}
