@@ -19,6 +19,11 @@ const moviesData = [
     title: "James Bond: No Time To Die",
     desc: "James Bond has retired and lives quietly in Jamaica, but everything changes when his friend from the CIA, Felix Leiter, asks him to help him stop an enigmatic villain who has state-of-the-art weapons.",
   },
+  {
+    img: "god_king.jpg",
+    title: "Godzilla vs Kingkong",
+    desc: "Kong and his protectors undertake a perilous journey to find his true home, and with them is Jia, a young orphaned girl with whom he has formed a unique and powerful bond. But they unexpectedly find themselves in the path of an enraged Godzilla, cutting a swath of destruction across the globe.",
+  },
 ];
 
 const numberOfElements = moviesData.length;
