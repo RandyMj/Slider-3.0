@@ -27,6 +27,22 @@ let containerSizeCalc = 100 * numberOfElements;
 let position = 0;
 let positionCalc = 0;
 
+function addElement(arr) {
+  for (element in arr) {
+    let newElement = document.createElement("div");
+    newElement.setAttribute("class", "container_middle-square");
+    container.append(newElement);
+    newElement.innerHTML = `
+      <div class="img-container">
+        <img src="./src/assets/${arr[element].img}" alt="" />
+      </div>
+      <div class="text-container">
+        <h1 class="movie-title">${arr[element].title}</h1>
+        <p class="movie-description">${arr[element].desc}</p>
+      </div>`;
+  }
+}
+
 function resizingContainer() {
   let newContainerSize = (container.style.width = `${containerSizeCalc}%`);
   return newContainerSize;
@@ -63,5 +79,6 @@ leftBtn.addEventListener("click", () => {
   console.log(positionCalc);
 });
 
+addElement(moviesData);
 resizingContainer();
 resizingMiddleSquare();
